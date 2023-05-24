@@ -69,6 +69,21 @@ const tw: LocaleType = {
     Lang: {
       Name: "Language", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
       All: "所有语言",
+      Options: {
+        cn: "简体中文",
+        en: "English",
+        tw: "繁體中文",
+        fr: "Français",
+        es: "Español",
+        it: "Italiano",
+        tr: "Türkçe",
+        jp: "日本語",
+        de: "Deutsch",
+        vi: "Tiếng Việt",
+        ru: "Русский",
+        cs: "Čeština",
+        ko: "한국어",
+      },
     },
     Avatar: "大頭貼",
     FontSize: {
@@ -155,7 +170,7 @@ const tw: LocaleType = {
   },
   Store: {
     DefaultTopic: "新的對話",
-    BotHello: "請問需要我的協助嗎？",
+    BotHello: "GPT-4 free usage will be reopened next month, stay tuned! Currently, please use GPT-3.5, free and unlimited.\n\nPersonal website: [https://gravityengine.cc/](https://gravityengine.cc/)\n\nIf you need to purchase an OpenAI $2500 account, please contact me. Telegram group: [https://t.me/gpt4forfree](https://t.me/gpt4forfree)\n\nIf you find my sharing useful, Buy Me a Coffee, USDT TRC20 address: TCgDn51uLKB9izo7n7hyCT3YxqJQhvpPH9\n\nStart a conversation with ChatGPT now!",
     Error: "出錯了，請稍後再嘗試",
     Prompt: {
       History: (content: string) =>

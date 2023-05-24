@@ -1,7 +1,7 @@
 import { SubmitKey } from "../store/config";
-import { RequiredLocaleType } from "./index";
+import type { LocaleType } from "./index";
 
-const en: RequiredLocaleType = {
+const en: LocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized:
@@ -37,30 +37,11 @@ const en: RequiredLocaleType = {
     },
   },
   Export: {
-    Title: "Export Messages",
+    Title: "All Messages",
     Copy: "Copy All",
     Download: "Download",
     MessageFromYou: "Message From You",
     MessageFromChatGPT: "Message From ChatGPT",
-    Share: "Share to ShareGPT",
-    Format: {
-      Title: "Export Format",
-      SubTitle: "Markdown or PNG Image",
-    },
-    IncludeContext: {
-      Title: "Including Context",
-      SubTitle: "Export context prompts in mask or not",
-    },
-    Steps: {
-      Select: "Select",
-      Preview: "Preview",
-    },
-  },
-  Select: {
-    Search: "Search",
-    All: "Select All",
-    Latest: "Select Latest",
-    Clear: "Clear",
   },
   Memory: {
     Title: "Memory Prompt",
@@ -90,6 +71,21 @@ const en: RequiredLocaleType = {
     Lang: {
       Name: "Language", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
       All: "All Languages",
+      Options: {
+        cn: "简体中文",
+        en: "English",
+        tw: "繁體中文",
+        fr: "Français",
+        es: "Español",
+        it: "Italiano",
+        tr: "Türkçe",
+        jp: "日本語",
+        de: "Deutsch",
+        vi: "Tiếng Việt",
+        ru: "Русский",
+        cs: "Čeština",
+        ko: "한국어",
+      },
     },
     Avatar: "Avatar",
     FontSize: {
@@ -178,15 +174,16 @@ const en: RequiredLocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "Hello! How can I assist you today?",
+    BotHello: "GPT-4 free usage will be reopened next month, stay tuned! Currently, please use GPT-3.5, free and unlimited.\n\nPersonal website: [https://gravityengine.cc/](https://gravityengine.cc/)\n\nIf you need to purchase an OpenAI $2500 account, please contact me. Telegram group: [https://t.me/gpt4forfree](https://t.me/gpt4forfree)\n\nIf you find my sharing useful, Buy Me a Coffee, USDT TRC20 address: TCgDn51uLKB9izo7n7hyCT3YxqJQhvpPH9\n\nStart a conversation with ChatGPT now!",
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>
-        "This is a summary of the chat history as a recap: " + content,
+        "This is a summary of the chat history between the AI and the user as a recap: " +
+        content,
       Topic:
         "Please generate a four to five word title summarizing our conversation without any lead-in, punctuation, quotation marks, periods, symbols, or additional text. Remove enclosing quotation marks.",
       Summarize:
-        "Summarize the discussion briefly in 200 words or less to use as a prompt for future context.",
+        "Summarize our discussion briefly in 200 words or less to use as a prompt for future context.",
     },
   },
   Copy: {
@@ -197,8 +194,6 @@ const en: RequiredLocaleType = {
     Toast: (x: any) => `With ${x} contextual prompts`,
     Edit: "Contextual and Memory Prompts",
     Add: "Add a Prompt",
-    Clear: "Context Cleared",
-    Revert: "Revert",
   },
   Plugin: {
     Name: "Plugin",
@@ -228,24 +223,15 @@ const en: RequiredLocaleType = {
     Config: {
       Avatar: "Bot Avatar",
       Name: "Bot Name",
-      Sync: {
-        Title: "Use Global Config",
-        SubTitle: "Use global config in this chat",
-        Confirm: "Confirm to override custom config with global config?",
-      },
-      HideContext: {
-        Title: "Hide Context Prompts",
-        SubTitle: "Do not show in-context prompts in chat",
-      },
     },
   },
   NewChat: {
     Return: "Return",
-    Skip: "Just Start",
+    Skip: "Skip",
     Title: "Pick a Mask",
     SubTitle: "Chat with the Soul behind the Mask",
     More: "Find More",
-    NotShow: "Never Show Again",
+    NotShow: "Not Show Again",
     ConfirmNoShow: "Confirm to disable？You can enable it in settings later.",
   },
 
