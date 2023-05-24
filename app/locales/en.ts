@@ -178,7 +178,7 @@ const en: RequiredLocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "Hello! How can I assist you today?",
+    BotHello: "GPT-4 free usage will be reopened next month, stay tuned! Currently, please use GPT-3.5, free and unlimited.\n\nPersonal website: [https://gravityengine.cc/](https://gravityengine.cc/)\n\nIf you need to purchase an OpenAI $2500 account, please contact me. Telegram group: [https://t.me/gpt4forfree](https://t.me/gpt4forfree)\n\nIf you find my sharing useful, Buy Me a Coffee, USDT TRC20 address: TCgDn51uLKB9izo7n7hyCT3YxqJQhvpPH9\n\nStart a conversation with ChatGPT now!",
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>
