@@ -176,7 +176,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "GPT-4免费使用权限将于下月重新开放，敬请期待！目前请使用GPT-3.5，免费无限制。\n\n个人网站：[https://gravityengine.cc/](https://gravityengine.cc/)\n\n如需购买OpenAI 2500刀账号可以与我联系，Telegram交流群：[https://t.me/gpt4forfree](https://t.me/gpt4forfree)\n\n如果你觉得我的分享有用，欢迎捐赠，USDT TRC20地址：TCgDn51uLKB9izo7n7hyCT3YxqJQhvpPH9\n\n开始和ChatGPT对话吧！",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
