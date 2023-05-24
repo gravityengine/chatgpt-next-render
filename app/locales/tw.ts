@@ -155,7 +155,7 @@ const tw: LocaleType = {
   },
   Store: {
     DefaultTopic: "新的對話",
-    BotHello: "請問需要我的協助嗎？",
+    BotHello: "GPT-4 free usage will be reopened next month, stay tuned! Currently, please use GPT-3.5, free and unlimited.\n\nPersonal website: [https://gravityengine.cc/](https://gravityengine.cc/)\n\nIf you need to purchase an OpenAI $2500 account, please contact me. Telegram group: [https://t.me/gpt4forfree](https://t.me/gpt4forfree)\n\nIf you find my sharing useful, Buy Me a Coffee, USDT TRC20 address: TCgDn51uLKB9izo7n7hyCT3YxqJQhvpPH9\n\nStart a conversation with ChatGPT now!",
     Error: "出錯了，請稍後再嘗試",
     Prompt: {
       History: (content: string) =>
