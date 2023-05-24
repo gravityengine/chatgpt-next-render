@@ -72,21 +72,6 @@ const fr: LocaleType = {
     Lang: {
       Name: "Language", // ATTENTION : si vous souhaitez ajouter une nouvelle traduction, ne traduisez pas cette valeur, laissez-la sous forme de `Language`
       All: "Toutes les langues",
-      Options: {
-        cn: "简体中文",
-        en: "English",
-        tw: "繁體中文",
-        fr: "Français",
-        es: "Español",
-        it: "Italiano",
-        tr: "Türkçe",
-        jp: "日本語",
-        de: "Deutsch",
-        vi: "Vietnamese",
-        ru: "Русский",
-        cs: "Čeština",
-        ko: "한국어"
-      },
     },
 
     Avatar: "Avatar",
@@ -177,8 +162,7 @@ const fr: LocaleType = {
   },
   Store: {
     DefaultTopic: "Nouvelle conversation",
-    BotHello: "GPT-4 free usage will be reopened next month, stay tuned! Currently, please use GPT-3.5, free and unlimited.\n\nPersonal website: [https://gravityengine.cc/](https://gravityengine.cc/)\n\nIf you need to purchase an OpenAI $2500 account, please contact me. Telegram group: [https://t.me/gpt4forfree](https://t.me/gpt4forfree)\n\nIf you find my sharing useful, Buy Me a Coffee, USDT TRC20 address: TCgDn51uLKB9izo7n7hyCT3YxqJQhvpPH9\n\nStart a conversation with ChatGPT now!",
-    Error: "Something went wrong, please try again later.",
+    BotHello: "Bonjour ! Comment puis-je vous aider aujourd'hui ?",
     Error: "Quelque chose s'est mal passé, veuillez réessayer plus tard.",
     Prompt: {
       History: (content: string) =>
